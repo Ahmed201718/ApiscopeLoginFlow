@@ -6,6 +6,7 @@ import java.io.*;
 
 public class PropertiesHandler {
 
+    // Reading JSON File
     JSONObject expactedJsonObj;
     public String json(String keyword ) throws IOException, ParseException {
         JSONParser parser = new JSONParser();
